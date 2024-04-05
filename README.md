@@ -33,4 +33,19 @@ enclosure as show below
 
 and close the lid on top again
 
+Now before connecting the power supply to BAUTA's security module there is just one final step 
+missing it can be helpful but is not mandatory for the operation of the device to connect the 
+provided Cat5e network cable to plug into the security module and the other end into your local 
+network infrastructure (hub, switch, etc.). The security module is configured to use automatic 
+address assignment (via DHCP) and as long as your network 
+infrastructure does not have MAC blocking active it should automatically receive a new IP address
+after switching on. In case your network infrastructure does have MAC listing active you have to 
+ask your network administrator to add the device's MAC address to the whitelist. The MAC address 
+can be found on the back of the security module.
 
+### Start-up sequence
+
+After receiving power it takes about 90 seconds for the device to be fully operational and
+it is starting recording.
+
+### Quick verification if all is running
