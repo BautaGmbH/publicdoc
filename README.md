@@ -16,3 +16,8 @@ should look like the following:
 
 <p align="center"><img width=1200 src="assets/adapter_0.jpg"/></p>
 
+After the enclosure has been opened you have to take the adapter out of the enclosure to be able
+to connect the two ribbon cables on each end
+
+<p align="center"><img width=1200 src="assets/adapter_1.jpg"/></p>
+
