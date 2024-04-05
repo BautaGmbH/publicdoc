@@ -21,3 +21,16 @@ to connect the two ribbon cables on each end
 
 <p align="center"><img width=1200 src="assets/adapter_1.jpg"/></p>
 
+Please ensure you place the adapter with the correct side up just as shown in the picture above
+and also the ribbon cables are facing the same way up as in the picture with the silver connector
+being clearly visible. Connecting the cables the wrong way can lead potentially to a short circuit and
+render the device unusuable, so please be careful!
+
+After you have connected the two ribbon cables to the adapter you can place it back inside its
+enclosure as show below
+
+<p align="center"><img width=1200 src="assets/eyepatch_install.jpg"/></p>
+
+and close the lid on top again
+
+
