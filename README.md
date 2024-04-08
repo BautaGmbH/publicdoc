@@ -49,3 +49,50 @@ After receiving power it takes about 90 seconds for the device to be fully opera
 it is starting recording.
 
 ### Quick verification if all is running
+
+Before being able to do this you have to ask your network administrator which IP address in your
+network the device has been assigned to. With the help of the MAC address that is written on the
+back of the security module it should be possible to look it up. Once you have obtained the
+IP address and the power to the security module has been connected at least for 90 seconds, you 
+can simply open a web browser on a device that is the same network
+
+```
+http://IP_ADDRESS_OF_SECURITY_MODULE:8080/getsnapshot
+```
+You can also use this snapshot functionality to visually allign the area you are interesteed in to observer
+
+### Additional configuration options
+
+The default recording time per session is currently 5 hours you can change the recording length per session
+by using a web browser that is in the same network as the security module by entering this address:
+
+```
+http://IP_ADDRESS_OF_SECURITY_MODULE:8080/setsessiondur?duration=TIMEINHOURSINCLUDINGFRACTIONALHRS
+```
+
+for example if you want 6.5 hours recording length you enter
+
+```
+http://IP_ADDRESS_OF_SECURITY_MODULE:8080/setsessiondur?duration=6.5
+```
+
+Please note the maximum recording length per session is 12 hours. You can also get the current
+recording length by using this URL:
+
+```
+http://IP_ADDRESS_OF_SECURITY_MODULE:8080/getsessiondur
+```
+
+Additionally the sensor comes with three different exposure settings depending on the environment 
+the sensor is placed the default exposure might be either too long or too short, to change to
+a different exposure mode you can use:
+
+```
+http://IP_ADDRESS_OF_SECURITY_MODULE:8080/setexposure?expmode={0,1,2}
+```
+ 
+Finally you can get the current exposure mode via this URL:
+
+```
+http://IP_ADDRESS_OF_SECURITY_MODULE:8080/getexposure
+```
