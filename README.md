@@ -16,12 +16,14 @@ For Windows 8.1/10/11 download the archive:
 Blindsensor_status_check.zip
 ```
 
-1.Connect your Windows computer with a standard ethernet patchcable to the Blindsensor 
+1. Connect your Windows computer with a standard ethernet patchcable to the Blindsensor 
 
-2.Unzip the archive anywhere on your windows computer for example on your desktop
+2. Unzip the archive anywhere on your windows computer for example on your desktop
 
-3.First start the batch script setup_ethernetconfig_to_connect_to_blindsensor.bat by double clicking on it (it might ask for permissions, please provide). This script sets your ethernet adapter to be in the same private local network as the blindsensor
+3. First start the batch script setup_ethernetconfig_to_connect_to_blindsensor.bat by double clicking on it (it might ask for permissions, please provide). This script sets your ethernet adapter to be in the same private local network as the blindsensor
 
-4.Now open BAUTAStatusApp.exe by double clicking on it, the following window should appear
+4. Now open BAUTAStatusApp.exe by double clicking on it, the following window should appear
 
 <p align="center"><img width=475 src="assets/Screenshot_bauta_tool.jpg"/></p>
+
+5. Simply press the connect button and you should see status messages appear
