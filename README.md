@@ -20,7 +20,12 @@ Blindsensor_status_check.zip
 
 2. Unzip the archive anywhere on your windows computer for example on your desktop
 
-3. First start the batch script setup_ethernetconfig_to_connect_to_blindsensor.bat by double clicking on it (it might ask for permissions, please provide). This script sets your ethernet adapter to be in the same private local network as the blindsensor
+3. First start the batch script:
+
+```
+setup_ethernetconfig_to_connect_to_blindsensor.bat 
+```
+by double clicking on it (it might ask for permissions, please provide). This script sets your ethernet adapter to be in the same private local network as the blindsensor
 
 4. Now open BAUTAStatusApp.exe by double clicking on it, the following window should appear
 
